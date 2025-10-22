@@ -38,10 +38,10 @@
             username,
             password
           });
-          alert("✅ Compte créé avec succès !");
+          alert("Erreur HTTP 404");
           form.reset();
         } catch (err) {
-          alert("❌ Erreur : " + err.message);
+          alert("Erreur HTTP 404 - " + err.message);
         }
       });
     });
